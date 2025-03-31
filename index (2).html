@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>British Master - Szkoła Językowa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #002147, #003366);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+        }
+        header img {
+            width: 100px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003366;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.02);
+        }
+        .cta {
+            background: #ffcc00;
+            color: #002147;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background: #e6b800;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            background: #003366;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+        }
+        a {
+            color: #003366;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/ENGLISH.jpg" alt="British Master Logo">
+        <h1>British Master - Szkoła Językowa</h1>
+        <p>Profesjonalne lekcje języka angielskiego online i w Łodzi</p>
+    </header>
+    <nav>
+        <a href="#o-mnie">O mnie</a>
+        <a href="#oferta">Oferta</a>
+        <a href="#koszta">Koszta</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="container">
+        <div id="o-mnie" class="section">
+            <h2>O mnie</h2>
+            <p><strong>Maciej Dybała</strong> – nauczyciel języka angielskiego z wieloletnim doświadczeniem.</p>
+            <p>Jeśli chcesz mówić płynnie po angielsku, pokonać barierę językową i osiągnąć swoje cele edukacyjne – jesteś w dobrym miejscu!</p>
+        </div>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Big_Ben%2C_London%2C_England_3_-_June_2009.jpg/800px-Big_Ben%2C_London%2C_England_3_-_June_2009.jpg" alt="Big Ben">
+        </div>
+        <div id="oferta" class="section">
+            <h2>Oferta</h2>
+            <ul>
+                <li>📚 Korepetycje dla uczniów klas 4-8</li>
+                <li>📝 Przygotowanie do egzaminu ósmoklasisty</li>
+                <li>🎓 Przygotowanie do matury podstawowej i rozszerzonej</li>
+                <li>💻 Zajęcia online i stacjonarne w Łodzi</li>
+            </ul>
+        </div>
+        <div id="koszta" class="section">
+            <h2>Koszta</h2>
+            <p>Cennik ustalany indywidualnie. Skontaktuj się, aby uzyskać szczegółowe informacje!</p>
+        </div>
+        <div id="kontakt" class="section">
+            <h2>Kontakt</h2>
+            <p>📧 Email: <a href="mailto:british.master.lodz@gmail.com">british.master.lodz@gmail.com</a></p>
+            <p>📞 Telefon: <a href="tel:+48888199195">+48 888-199-195</a></p>
+        </div>
+        <div class="cta">
+            <p>📢 Nie czekaj! Skontaktuj się już dziś i zacznij naukę angielskiego z profesjonalistą!</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 British Master - Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
